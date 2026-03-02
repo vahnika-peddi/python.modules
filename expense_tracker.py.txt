@@ -13,7 +13,7 @@ while True:
         category = input("Enter category: ")
 
         expenses.append((amount, category))
-        print("Expense Added ✅")
+        print("Expense Added")
 
     elif choice == "2":
         print("\nAll Expenses:")
