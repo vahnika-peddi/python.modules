@@ -18,7 +18,8 @@ while True:
     elif choice == "2":
         print("\nAll Expenses:")
         for expense in expenses:
-            print(expense)
+    print("Amount:", expense[0], "| Category:", expense[1])
+           
 
     elif choice == "3":
         total = 0
